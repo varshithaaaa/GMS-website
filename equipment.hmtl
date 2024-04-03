@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>garden management system</title>
+  <style >
+    /* Reset default margin and padding */
+body, h1, h2, h3, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #E0C2B2;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+}
+
+h1{
+  padding-left: 10px;
+}
+nav ul {
+  list-style: none;
+  text-align: right;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+nav li {
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+section h2{
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="growise.jpg" height="30px" width="40px">
+    <h1>GROWISE</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="jobs.html">Jobs</a></li>
+      <li><a href="profile.html">PROFILE</a></li>
+      <li><a href="login.html">LOG OUT</a></li>
+    </ul>
+  </nav>
+  <section id="user-management">
+    <h2><a href="assignloc.html" style="text-decoration:none;">lawn mowers</h2>
+  </section>
+  <section id="places-management">
+    <h2><a href="mplaces.html" style="text-decoration:none;">Scissors</h2>
+  </section>
+  <section id="task-reports">
+    <h2><a href="equipment.html" style="text-decoration:none;">Sprinklers</h2>
+  </section>
+  <section id="task-reports">
+    <h2><a href="reports.html" style="text-decoration:none;">Spade</h2>
+  </section>
+</body>
+</html>

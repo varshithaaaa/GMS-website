@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Admin Dashboard</title>
+  <style >
+    /* Reset default margin and padding */
+body, h1, h2, h3, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #E0C2B2;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+}
+h1{
+  padding-left: 10px;
+}
+nav ul {
+  list-style: none;
+  text-align: right;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+nav li {
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+form {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #555;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="growise.jpg" height="30px" width="40px">
+    <h1><a href="adashboard.html"style="text-decoration:none;">GROWISE</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="assigntask.html">Assign Task</a></li>
+      <li><a href="sjobs.php">Jobs</a></li>
+      <li><a href="reqassets.html">Request Assets</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="logout.php">Logout</a></li>
+    </ul>
+  </nav>
+<div class="loginbox">
+    <img src="avatar.png" height=100px; width=100px;>
+        <h1>Profile</h1>
+<form id="add-employee-form">
+      <label for="employee-name">Employee Name:</label>
+      <input type="text" id="employee-name" name="employee-name">
+      <label for="dob">Date of Birth:</label>
+      <input type="Date" name="dob" >
+      <label for="mob_no">Mobile no:</label>
+      <input type="big int" name="mob_no">
+      </select>
+    </form>
+    </div>
+</body>
+</html>

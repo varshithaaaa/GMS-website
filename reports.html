@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Admin Dashboard</title>
+  <style >
+    /* Reset default margin and padding */
+body, h1, h2, h3, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #E0C2B2;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+}
+h1{
+  padding-left: 10px;
+}
+nav ul {
+  list-style: none;
+  text-align: right;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+nav li {
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+section h2{
+  text-align: center;
+}
+/* ... Your existing CSS styles ... */
+
+.employee-table {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="growise.jpg" height="30px" width="40px">
+    <h1><a href="adashboard.html"style="text-decoration:none;">GROWISE</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="addemp.html"style="text-decoration:none;">ADD USERS</a></li>
+      <li><a href="profile.html"style="text-decoration:none;">PROFILE</a></li>
+      <li><a href="logout.html"style="text-decoration:none;">LOG OUT</a></li>
+    </ul>
+  </nav>
+     <div class="employee-table">
+
+      <h3>Reports</h3>
+      <div class="search-bar">
+            <span class="search-icon">&#128269;</span>
+            <input type="text" class="search-input" placeholder="Search...">
+</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Sl.No</th>
+            <th>Job id</th>
+            <th>Task</th>
+            <th>Manager Incharge</th>
+            <th>date</th>
+            <th>Start time</th>
+            <th>End time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Employee data rows will be added dynamically using JavaScript -->
+          <tr>
+            <td>1</td>
+            <td>12534</td>
+            <td>Cleaning</td>
+            <td>Sahithi</td>
+            <td>30-08-2023</td>
+            <td>8.00AM</td>
+            <td>10.00AM</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</body>
+</html>

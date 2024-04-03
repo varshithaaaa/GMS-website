@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Admin Dashboard</title>
+  <style >
+    /* Reset default margin and padding */
+body, h1, h2, h3, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: #E0C2B2;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+}
+h1{
+  padding-left: 10px;
+}
+nav ul {
+  list-style: none;
+  text-align: right;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+nav li {
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input{
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #555;
+}
+.outerbox{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  border:1px black;
+  padding: 50px;
+
+}
+.id1,.id2{
+  display: flex;
+  justify-content: center;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo1.png" height="30px" width="40px">
+    <h1><a href="adashboard.html"style="text-decoration:none;">GROWISE</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="addemp.html" style="text-decoration:none;">ADD USERS</a></li>
+      <li><a href="profile.html"style="text-decoration:none;">PROFILE</a></li>
+      <li><a href="login.html"style="text-decoration:none;">LOG OUT</a></li>
+    </ul>
+  </nav>
+  <div class="outerbox">
+<div class="loginbox">
+  <div class="id1">
+    <img src="avatar.png" height=100px; width=100px;></div>
+    <div class="id2">
+        <h1>Profile</h1>
+      </div>
+<form id="add-employee-form">
+      <label for="employee-name">Employee Name:</label>
+      <input type="text" id="employee-name" name="employee-name">
+      <label for="dob">Date of Birth:</label>
+      <input type="Date" name="dob" >
+      <label for="mob_no">Mobile no:</label>
+      <input type="big int" name="mob_no">
+    </form>
+    </div>
+  </div>
+</body>
+</html>

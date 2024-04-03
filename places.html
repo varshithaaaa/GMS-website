@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Admin Dashboard</title>
+  <style >
+    /* Reset default margin and padding */
+body, h1, h2, h3, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #E0C2B2;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+}
+h1{
+  padding-left: 10px;
+}
+nav ul {
+  list-style: none;
+  text-align: right;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+nav li {
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+
+
+section {
+            margin: 30px;
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            width:80%;
+        }
+section h2{
+  text-align: center;
+}
+.id1{
+  padding-top:20px;
+}
+.id1 ,.id2 ,.id3{
+  display:flex;
+  justify-content:  center;
+  width:100%;
+}
+a{
+  text-decoration: none;
+}
+button {
+  border:2px solid black; 
+  padding: 13px 30px;
+  border-radius: 20px;
+}
+.btn{
+  display: flex;
+  justify-content:end;
+  padding-right: 50px;
+  padding-top:50px;
+  border:2px black;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo1.png" height="30px" width="40px">
+    <h1><a href="adashboard.html">GROWISE</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="addemp.php">ADD USERS</a></li>
+      <li><a href="profile.html" >PROFILE</a></li>
+      <li><a href="logout.html" >LOG OUT</a></li>
+    </ul>
+  </nav>
+<div class="btn">
+  <button type="submit"><a href="addplace.php">Add place</a></button>
+</div>
+<div class="id1">
+  <section >
+    <h2>Location 1</h2>
+    <!-- Add user management form and list here -->
+  </section>
+</div>
+<div class="id2">
+  <section>
+    <h2>Location 2</h2>
+  </section>
+</div>
+<div class="id3">
+  <section >
+    <h2>Location 3</h2>
+  </section>
+  </div>
+
+</body>
+</html>
